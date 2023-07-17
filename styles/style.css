@@ -277,15 +277,34 @@ main {
     font-weight: 400;
     margin-bottom: 40px;
 }
-.sponsors-container{
+
+.sponsors-container {
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    
+
 }
-.sponsors img{
+
+.sponsors img {
     width: 150px;
     height: 50px;
+}
+
+/* Footer styles */
+footer {
+    width: 73%;
+    margin: 30px auto;
+    background-color: #FFF4E7;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.copyright {
+    text-align: center;
+    color: #424242;
+    font-size: 18px;
+    font-weight: 400;
+
 }
 
 /* responsive styles */
@@ -324,7 +343,8 @@ main {
     .facts-card-container {
         flex-direction: column;
     }
-    .sponsors-container{
+
+    .sponsors-container {
         flex-direction: column;
         align-items: center;
     }
@@ -365,7 +385,8 @@ main {
     .facts-card-container {
         flex-direction: column;
     }
-    .sponsors-container{
+
+    .sponsors-container {
         flex-direction: column;
         align-items: center;
     }
