@@ -242,8 +242,8 @@ main {
     text-align: center;
     border: 1px dashed #FF900E;
     border-radius: 5px;
-    padding: 25px ;
-   margin:  10px;
+    padding: 25px;
+    margin: 10px;
 }
 
 .card-stats {
@@ -260,6 +260,33 @@ main {
     font-weight: 600;
 }
 
+/* our sponsors styles  */
+.our-sponsor-title {
+    color: #131313;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.our-sponsor-description {
+    color: #727272;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.sponsors-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+.sponsors img{
+    width: 150px;
+    height: 50px;
+}
 
 /* responsive styles */
 
@@ -293,8 +320,13 @@ main {
     .features-content {
         align-self: center;
     }
-    .facts-card-container{
+
+    .facts-card-container {
         flex-direction: column;
+    }
+    .sponsors-container{
+        flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -329,7 +361,12 @@ main {
     .features-content {
         align-self: center;
     }
-    .facts-card-container{
+
+    .facts-card-container {
         flex-direction: column;
+    }
+    .sponsors-container{
+        flex-direction: column;
+        align-items: center;
     }
 }
